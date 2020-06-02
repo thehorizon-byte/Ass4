@@ -66,4 +66,4 @@ tidy_data <- merge(activity_labels,tidy_data, by = "activity_id", all.x = TRUE)
 tidy_data <- tidy_data[,c(3,2,4:82)] 
 
 # Step 11: create independent tidy data set with the average of each variable for each activity and each subject
-means_tidy_data <- aggregate(.~ subject + activity,tidy_data, mean)
+tidy_data <- aggregate(.~ subject + activity,tidy_data, mean)
