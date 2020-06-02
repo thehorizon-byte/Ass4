@@ -1,8 +1,7 @@
 
-output: "tidy_data.txt" and "means_tidy_data"
+output: "tidy_data.txt".
 
 Code Book
-The dataset tidy_data.txt contains all data of each variable for each activity and each subject from the Human Activity Recognition Using Smartphones Data Set.
 The dataset tidy_data.txt contains the average of each variable for each activity and each subject from the Human Activity Recognition Using Smartphones Data Set.
 
 Identifiers
